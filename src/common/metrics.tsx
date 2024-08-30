@@ -36,11 +36,9 @@ export default function CardComponent(props: {
   content?: string;
 }) {
   return (
-    <Card className=" rounded-xl w-full bg-black text-white border-gray-700 pb-4">
+    <Card className=" rounded-xl w-full pb-4">
       <CardHeader className="pb-2">
-        <CardDescription className="text-slate-200">
-          {props.title}
-        </CardDescription>
+        <CardDescription className="">{props.title}</CardDescription>
         <CardTitle className="text-4xl">{props.content}</CardTitle>
       </CardHeader>
     </Card>

@@ -1,20 +1,19 @@
 "use client";
 
-import { TrendingUp } from "lucide-react";
 import { CartesianGrid, Line, LineChart, XAxis } from "recharts";
 const chartData = [
-  { month: "January", desktop: 135 },
-  { month: "February", desktop: 305 },
-  { month: "March", desktop: 237 },
-  { month: "April", desktop: 73 },
-  { month: "May", desktop: 209 },
-  { month: "June", desktop: 214 },
-  { month: "July", desktop: 456 },
-  { month: "August", desktop: 389 },
-  { month: "September", desktop: 238 },
-  { month: "October", desktop: 696 },
-  { month: "November", desktop: 888 },
-  { month: "December", desktop: 1000 },
+  { month: "January", desktop: 1345678 },
+  { month: "February", desktop: 1578392 },
+  { month: "March", desktop: 2375738 },
+  { month: "April", desktop: 3456789 },
+  { month: "May", desktop: 4567890 },
+  { month: "June", desktop: 5678901 },
+  { month: "July", desktop: 6789012 },
+  { month: "August", desktop: 6489012 },
+  { month: "September", desktop: 7890123 },
+  { month: "October", desktop: 8901234 },
+  { month: "November", desktop: 8889898 },
+  { month: "December", desktop: 9999999 },
 ];
 
 import {
@@ -79,9 +78,6 @@ export function UserGrowthChart() {
         </ChartContainer>
       </CardContent>
       <CardFooter className="flex-col items-start gap-2 text-sm">
-        <div className="flex gap-2 font-medium leading-none">
-          Trending up by 6.9% this month <TrendingUp className="h-4 w-4" />
-        </div>
         <div className="leading-none text-muted-foreground">
           Showing user growth for the past 12 months
         </div>
