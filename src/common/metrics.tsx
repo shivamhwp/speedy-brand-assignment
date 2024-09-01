@@ -9,11 +9,11 @@ import { RevenueDistribution } from "./charts/RevenueDistributionChart";
 
 export function MetricsComponent() {
   return (
-    <div className=" flex w-full h-auto gap-8">
-      <div className=" w-1/2 flex-col flex gap-8 h-full">
+    <div className=" flex w-full max-lg:flex-col h-auto gap-8 max-lg:gap-6">
+      <div className=" w-1/2 max-lg:w-full flex-col flex gap-8 max-lg:gap-6 h-full">
         <div className="flex gap-6 w-full">
-          <CardComponent title="Total Users" content="6969696969" />
-          <CardComponent title="Active Users" content="69420" />
+          <CardComponent title="Total Users" content="69.9 million" />
+          <CardComponent title="Active Users" content="4.2 million" />
         </div>
         <div className="flex gap-6 w-full">
           <CardComponent title="Total Streams" content="69 billion" />
@@ -24,7 +24,7 @@ export function MetricsComponent() {
           content="Trent Reznor & Atticus Ross"
         />
       </div>
-      <div className="w-1/2 rounded-xl">
+      <div className="w-1/2 max-lg:w-full rounded-xl">
         <RevenueDistribution />
       </div>
     </div>

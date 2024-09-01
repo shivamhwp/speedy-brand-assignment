@@ -15,3 +15,4 @@ live link : https://speedy-brand-assignment.vercel.app/
 -process and tradeoffs.
 
 - I used nextjs for the project because it is a react framework that is easy to use and has a lot of features that make it easy to build a web application. the tradeoff is that it is a bit heavy and might not be the best choice for a small project, but for a big web app like yours, i think it is the best choice. also there is use of stock data in it, resulting in little code duplication and a bit of complexity in the code. but using a database and production backend can easily solve this issue.
+- also when using database,api's and other stuff using libraries like tanstack react-query can be very helpful,developer-friendly and can make the code more readable and maintainable.
